@@ -1,0 +1,30 @@
+{
+    "name": "mingyi/common",
+    "description": "",
+    "keywords": [],
+    "homepage": "http://www.xibotu.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jetking",
+            "email": "jetking@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/config": "~5.0",
+        "illuminate/support": "~5.0",
+        "predis/predis": "^1.1",
+        "guzzlehttp/guzzle": "^6.2",
+        "monolog/monolog": "^1.22",
+        "fluent/logger": "^1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Mingyi\\Common\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
